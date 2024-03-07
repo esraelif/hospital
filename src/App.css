@@ -79,7 +79,7 @@ body {
   border: none;
 }
 
-/*! data daki bittiMi kısmı false iken görünecek stil */
+/*! data daki isDone kısmı false iken görünecek stil */
 .falseStyle {
   display: flex;
   justify-content: space-between;
@@ -101,12 +101,12 @@ body {
   color: #152bbb;
 }
 
-/*! data daki bittiMi kısmı true iken görünecek stil */
+/*! data daki isDone kısmı true iken görünecek stil */
 .trueStil {
   display: flex;
   justify-content: space-between;
-  border-left: 10px solid #2037b9;
-  background-color: #5dd5f9;
+  border-left: 10px solid #a7a8ae;
+  background-color: #1f4b59;
   padding: 10px 20px;
 }
 
@@ -122,7 +122,7 @@ body {
 
 }
 
-/* ilk sayfadaki 4 doktor resmi */
+/* ilk sayfadaki 4 doktor resmi ve isimlerinin div i*/
 .dr {
   display: flex;
   gap: 2rem 1rem;
