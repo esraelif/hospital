@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { hastaData, doctorData } from '../helper/Data';
 import PatientList from '../components/PatientList';
-import '../App';
+import '../App.css';
+import AddPatient from '../components/AddPatient';
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
                     </div>
                 </header>
 
-                {/* hastaekle */}
+                <AddPatient hastalar={hastalar} setHastalar={setHastalar} />
             </div>
 
             <PatientList hastalar={hastalar} setHastalar={setHastalar} />
